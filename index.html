@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    
+    
+</head>
+<body>
+    
+    
+    <header class="header"><img class="logo" src="assets/Logo.png" alt="">
+        <p class="titulo">Encriptador de Textos</p>
+    </header>
+    <main class="main">
+        <section class="seccion">
+            
+            <textarea class="texto__usuario" id="texto__usuario" rows="10" cols="30" placeholder="ingresa el texto aqui"></textarea>
+               
+            <div class="informacion">
+                <img class="img_interrogacion" src="assets/exclamation.png" alt="exclamation">
+                <p class="informacion__texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="seccion1__boton" >
+                <button  class="boton__encriptar" onclick="btnencriptar();" >Encriptar</button>
+                <button class="boton__desencriptar " onclick="btnDesencriptar();" >Desencriptar</button>
+            </div>
+            <div class="seccion1__boton2">
+                <button class="boton__reiniciar" id="boton__reiniciar" onclick="btnreiniciar();" >Reiniciar</button>
+            </div>
+        </section >
+        <section class="seccion2">
+            <textarea readonly="readonly" id="texto__encriptado" class="texto__encriptado"  rows="10" cols="30"></textarea>
+            <p class="p_container1" id="p_container1">Ingresa el texto que deseas encriptar o desencriptar</p>
+            <p class="p_container2" id="p_container2">No se ha encontrado ningun mensaje</p>
+            <div class="seccion2__boton">
+                <button  onclick="btncopiar();" class="boton__copiar" id="boton__copiar">Copiar</button>
+            </div>   
+        
+        </section>
+
+          
+
+        
+
+    </main>
+    
+    <footer>
+        <p class="parrafo__footer">Creado por Luis Daniel Tenorio Reyes</p>
+    </footer>
+    <script src="script2.js"></script>
+    
+</body>
+
+</html>
+
