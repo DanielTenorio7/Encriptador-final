@@ -10,7 +10,7 @@ tenemos algunos botones como podemos ver sin embargo hay otros que solo se activ
 El boton de copiar, nos permite copiarl el texto que esta encriptado al portapapeles para colocarlo en el Texarea para desencriptar como en la siguiente imagen.
 ![image](https://github.com/user-attachments/assets/b4be9fa3-4f11-451a-97f8-b4b64d26ae14)
 
-Y el siguiente boton de Reiniciar sirve para dejar todo vacion y comenza un nuevo escrito.
+Y el siguiente boton de Reiniciar sirve para dejar todo vacio y comienza un nuevo escrito.
 
 
 
